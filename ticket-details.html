@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>RZYB-ff_source Ticket detail</title>
+</head>
+
+<body>
+
+    <!-- =================== HEADER AREA START ===================== -->
+    <header class="header__area dashboard__header ticket__header position-relative">
+        <div class="menu__area position-relative">
+            <div class="container">
+                <div class="main__menu d-flex justify-content-between align-items-center">
+                    <a href="index.html" class="logo"><img src="assets/img/logo.svg" alt="site logo"></a>
+                    <ul class="d-none d-md-flex menu">
+                        <li>
+                            <a class="menu__link" href="dashboard.html">Profile</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="settings.html">Settings</a>
+                        </li>
+                        <li>
+                            <a class="menu__link" href="purchase.html">Purchase</a>
+                        </li>
+                    </ul>
+                    <button class="bg-transparent border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="assets/img/menu_bar.svg" alt="menu bar"></button>
+                </div>
+            </div>
+        </div>
+        <div class="hero__area mb-0">
+            <div class="hero__title section__title text-center">
+                <h2 class="mb-0">Ticket <span>Details</span></h2>
+            </div>
+        </div>
+        <div class="header__shadow position-absolute d-md-block d-none"></div>
+    </header>
+        <!-- mobile menu start-->
+        <div class="offcanvas offcanvas-start mobile__menu" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <button type="button" class="menu__close border-0 d-flex align-items-center justify-content-center" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fal fa-times"></i></button>
+            
+            <div class="offcanvas-body">
+                <ul class="d-flex flex-column menu align-items-center">
+                    <li>
+                        <a class="menu__link" href="dashboard.html">Profile</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="settings.html">Settings</a>
+                    </li>
+                    <li>
+                        <a class="menu__link" href="purchase.html">Purchase</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- mobile menu end-->
+    <!-- =================== HEADER AREA END ===================== -->
+
+    <!-- ticket detail area start here -->
+    <div class="ticket__detail__area position-relative overflow-hidden">
+        <div class="detail__shadow position-absolute d-lg-none">
+            <img src="assets/img/detail_shadow.png" alt="detail_shadow">
+        </div>
+        <div class="container">
+            <div class="ticket__detail__area--wrapper">
+                <a href="#" class="back__btn para__style"><img src="assets/img/arrow-left.png" alt="arrow-left">Back</a>
+                <div class="ticket__detail--wrapper d-lg-grid">
+                    <form action="" class="ticket__form info__form border-0 bg-transparent p-0">
+                        <h2 class="form__title section__title__sm">Ticket Details</h2>
+                        <div class="info__input">
+                            <label for="id" class="para__style d-block text-uppercase">TICKET ID</label>
+                            <input type="text" id="id" class="w-100" placeholder="123456789123456">
+                        </div>
+                        <div class="info__input">
+                            <label for="subject" class="para__style d-block">Subject</label>
+                            <input type="text" id="subject" class="w-100" placeholder="Lorem ipsum">
+                        </div>
+                        <div class="info__input">
+                            <label for="date" class="para__style d-block">Date</label>
+                            <input type="date" id="date" class="w-100" placeholder="11/11/2023">
+                        </div>
+                        <div class="info__input">
+                            <label for="status" class="para__style d-block">Status</label>
+                            <input type="text" id="status" class="w-100 mb-0" placeholder="Pending">
+                        </div>
+                    </form>
+                    <div class="announcment__wrapper border-0 bg-transparent p-0">
+                        <div class="section__title announcement__title">
+                            <h2 class="ms-0">Conversation</h2>
+                        </div>
+                        <div class="announcement announcement__one d-flex border-0 mb-0">
+                            <img src="assets/img/dashboard/man.png" alt="man img">
+                            <div class="announcement__desc">
+                                <h4 class="para__style d-inline-flex align-items-center">Mx<span>12/12/2023 1:00 am</span></h4>
+                                <p class="para__style pb-0 mb-0">Lorem ipsum dolor sit amet consectetur. Condimentum condimentum quam habitasse libero dolor eu sit rutrum. Commodo eget ipsum tincidunt sed turpis. Suspendisse non elementum et.</p>
+                            </div>
+                        </div>
+                        <div class="announcement announcement__two d-flex border-0 mb-0">
+                            <img src="assets/img/dashboard/man.png" alt="man img">
+                            <div class="announcement__desc">
+                                <h4 class="para__style d-inline-flex align-items-center">Mx<span>12/12/2023 1:00 am</span></h4>
+                                <p class="para__style pb-0 mb-0">Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="announcement announcement__three d-flex border-0 mb-0">
+                            <img src="assets/img/dashboard/man.png" alt="man img">
+                            <div class="announcement__desc">
+                                <h4 class="para__style d-inline-flex align-items-center">Mx<span>12/12/2023 1:00 am</span></h4>
+                                <p class="para__style pb-0 mb-0 text-uppercase">hello!</p>
+                            </div>
+                        </div>
+                        <textarea name="msg" placeholder="Message" class="w-100"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ticket detail area end here -->
+
+
+
+    <!-- footer area start here -->
+    <div class="footer__area position-relative">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="index.html" class="footer__logo text-center mx-auto d-block"><img src="assets/img/logo.svg" alt="site logo"></a>
+            </div>
+        </div>
+        <div class="copyright__area">
+            <div class="container">
+                <div class="footer__copyright d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <p class="copyright__text para__style mb-0">© 2022-2023 <a href="#" class="para__style">SusanoRE, SASU,</a> trading as Susano</p>
+                    <div class="footer__icon d-flex align-items-center">
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 640 512"><path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/></svg></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block">
+            <img  class="footer__shadow position-absolute" src="assets/img/footer_shadow.png" alt="footer shadow">
+        </div>
+    </div>
+    <!-- footer area end here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
